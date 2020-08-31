@@ -34,7 +34,7 @@ function draw() {
 
     //Heading of the plot
     textSize(25);
-    text("Total # flights cancelled in years 2003-2016",plotWidth/2+320,topMargin);
+    text("Total flights cancelled in years 2003-2016",plotWidth/2+320,topMargin);
     textSize(12);
 
     // plotting x-axis
@@ -66,7 +66,7 @@ function draw() {
     rotate(270);
     textAlign(CENTER);
     textSize(20);
-    text("Total # of flights cancelled",-(topMargin + plotHeight/2),leftMargin - 70);
+    text("Total flights cancelled",-(topMargin + plotHeight/2),leftMargin - 70);
     textSize(12);
     rotate(90);
 
