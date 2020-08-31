@@ -7,7 +7,7 @@ let plotHeight = window.innerHeight - topMargin - 90;
 let barWidth = 40;
 
 function preload() {
-    tb = loadTable("https://bl.ocks.org/vaishnav-expo/raw/6ee54f749470b087662a7d63e3a7ca99/airlines.csv", "csv", "header");
+    tb = loadTable("airlines.csv", "csv", "header");
 }
 
 let tempMap = {};
